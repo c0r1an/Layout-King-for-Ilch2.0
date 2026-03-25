@@ -1,17 +1,17 @@
-# Layout King fuer Ilch 2.0
+# Layout King für Ilch 2.0
 
-`King` ist ein dunkles Gaming-Layout fuer Ilch 2.0 mit flexibel steuerbaren Bereichen fuer Header, Navigation, Slider, Sidebar und Footer.
+`King` ist ein dunkles Gaming-Layout für Ilch 2.0 mit flexibel steuerbaren Bereichen für Header, Navigation, Slider, Sidebar und Footer.
 
 ## Funktionen
 
 - Header mit mittigem Logo und zwei frei konfigurierbaren Bannern
-- Hauptnavigation auf Basis des Ilch-Menues
-- fester Home-Button im Menue
+- Hauptnavigation auf Basis des Ilch-Menüs
+- fester Home-Button im Menü
 - optionaler Startseiten-Slider mit 3 Slides
-- rechte Sidebar ueber Ilch-Menue 2 und Boxen
+- rechte Sidebar über Ilch-Menü 2 und Boxen
 - Breadcrumb ausserhalb der Startseite
 - Footer mit wichtigen Links und frei definierbarem Copyright
-- Mobile-Menue und schwebender Back-to-Top-Button
+- Mobile-Menü und schwebender Back-to-Top-Button
 - umfangreiche AdvSettings direkt im Layout
 
 ## Installation
@@ -31,14 +31,14 @@
 - `application/layouts/king/config/config.php`
   Layout-Metadaten und alle Backend-Einstellungen
 - `application/layouts/king/translations/`
-  deutsche und englische Uebersetzungen fuer die Layout-Konfiguration
+  deutsche und englische Übersetzungen für die Layout-Konfiguration
 
 ## Hinweise
 
 - `index_full` nutzt exakt dasselbe Layout wie `index`, nur ohne Sidebar.
 - Social-Icons werden nur angezeigt, wenn im Backend ein Link gepflegt ist.
-- Die Content-Breite wird ueber die AdvSettings als `max-width` gesteuert.
-- Das Layout ist fuer eine spaetere Weiterentwicklung bewusst modular vorbereitet.
+- Die Content-Breite wird über die AdvSettings als `max-width` gesteuert.
+- Das Layout ist für eine spätere Weiterentwicklung bewusst modular vorbereitet.
 
 ## Version
 
