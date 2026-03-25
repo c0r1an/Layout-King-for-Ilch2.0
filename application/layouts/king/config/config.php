@@ -12,7 +12,7 @@ class Config extends \Ilch\Config\Install
     public $config = [
         'name' => 'King',
         'version' => '1.0.0',
-        'ilchCore' => '2.2.0',
+        'ilchCore' => '2.2.14',
         'author' => 'c0r1an',
         'link' => 'https://github.com/c0r1an/Layout-King-for-Ilch2.0',
         'desc' => 'King Layout.',
