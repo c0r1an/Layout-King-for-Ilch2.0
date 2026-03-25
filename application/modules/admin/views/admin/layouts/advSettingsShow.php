@@ -45,22 +45,13 @@ function getInput(string $name, array $value, array $settingsValues, \Ilch\View 
                                                type="text"
                                                name="%s"
                                                id="selectedImage_%s"
-                                               value="%s"
-                                               readonly />
+                                               value="%s" />
                                         <span class="input-group-text"><a id="media_%s" href="javascript:media_%s()"><i class="fa-regular fa-image"></i></a></span>
-                                        <button class="btn btn-outline-secondary"
-                                                type="button"
-                                                title="%s"
-                                                aria-label="%s"
-                                                onclick="clearMediaSelection_%s()">
-                                            <i class="fa-solid fa-xmark"></i>
-                                        </button>
-                                    </div>', $name, $name, $settingsValue, $name, $name, $obj->getTrans('clearMediaSelection'), $obj->getTrans('clearMediaSelection'), $name);
+                                    </div>', $name, $name, $settingsValue, $name, $name);
             $input .= '<script>' . $obj->getMedia()
                             ->addMediaButton($obj->getUrl('admin/media/iframe/index/type/single/input/_' . $name . '/'))
                             ->addInputId('_' . $name)
                             ->addUploadController($obj->getUrl('admin/media/index/upload')) .
-                      'function clearMediaSelection_' . $name . '(){document.getElementById("selectedImage_' . $name . '").value="";}' .
                       '</script>';
             break;
         case 'text':
