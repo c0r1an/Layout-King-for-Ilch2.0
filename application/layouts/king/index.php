@@ -27,7 +27,7 @@ $socialLinks = [
 ];
 $footerLinksTitle = trim((string)$this->getLayoutSetting('footer_links_title')) ?: 'Wichtige Links';
 $footerCopyrightText = trim((string)$this->getLayoutSetting('footer_copyright_text'))
-    ?: '%YEAR% %TITLE% Inc. - All Rights Reserved.';
+    ?: '%YEAR% %TITLE% Copyright';
 $footerCopyrightText = str_replace(
     ['%YEAR%', '%TITLE%'],
     [date('Y'), $siteTitle],
