@@ -14,7 +14,7 @@ class Config extends \Ilch\Config\Install
         'version' => '1.0.0',
         'ilchCore' => '2.2.0',
         'author' => 'c0r1an',
-        'link' => 'https://teamkill.club',
+        'link' => 'https://github.com/c0r1an/Layout-King-for-Ilch2.0',
         'desc' => 'King Layout.',
         'layouts' => [
             'index_full' => [
@@ -34,7 +34,7 @@ class Config extends \Ilch\Config\Install
             ],
             'accent_color' => [
                 'type' => 'colorpicker',
-                'default' => '#ef3418',
+                'default' => '#ffc31f',
                 'description' => 'desc_accent_color',
             ],
             'content_width' => [
@@ -236,7 +236,7 @@ class Config extends \Ilch\Config\Install
             ],
             'footer_copyright_text' => [
                 'type' => 'text',
-                'default' => '%YEAR% %TITLE% Inc. - All Rights Reserved.',
+                'default' => '%YEAR% %TITLE% Copyright',
                 'description' => 'desc_footer_copyright_text',
             ],
         ],
